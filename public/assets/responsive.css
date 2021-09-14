@@ -1,0 +1,475 @@
+/*
+	* Template name: Apphoot - Responsive App Landing Page Template
+	* Template URI: http://koder.top/demo/apphoot/
+	* Version: 1.0	
+	* Author: Farhadur Rahim
+	* Author URI: https://themeforest.net/user/webmechanicx
+*/
+
+/*====================== start responsive style =====================*/
+  
+@media(min-width:991px ) {
+  .container {
+    width: 970px;
+  }
+  
+  .available-store .btn-platform:first-child {
+    margin-left: 0px;
+  }
+  
+  .available-store .btn-platform {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  
+  .no-slider p, 
+  .slide-caption p {
+    text-align: justify;
+  }
+  
+  .platform-btn .btn-platform {
+    width: 100%;
+  }
+  
+  .featured-logo > li > a, 
+  .featured-logo > li > span {
+	padding: 19px 12px 19px;
+  }
+  
+  .navbar-default .navbar-brand {
+    font-size: 18px;
+  }
+  
+  .navbar-default .navbar-nav > li > a {
+    font-size: 14px;
+	padding: 18px 9px;
+  }
+  
+  .navbar-nav > li > .dropdown-menu li a {
+    font-size: 12px;
+  }
+  
+  .navbar-brand {
+    width: 160px;
+  }
+  
+  .navbar-brand img {
+    max-width: 100%;
+  }
+  
+  .btn-2x {
+    width: 24%;
+  }
+  
+  .platform-btn .btn-platform:last-child {
+    margin-left: 0px;
+	margin-bottom: 0px;
+  }
+  
+  .platform-btn {
+    margin-top: 28px;
+    margin-bottom: 0px;
+  }
+  
+  #platform .medium-list ul li .medium p { 
+    font-size: 16px; 
+	line-height: 18px;
+  }
+  
+  #platform .medium-list ul li .medium {
+    overflow: hidden;
+  }
+  
+  .panel-pricing.popular {
+    margin: 0px 0px 20px;
+  }
+  
+  .review-timeline-body p {
+    text-align: justify;
+  }
+  
+  div.twt-item {
+    text-align: center;
+  }
+  
+  .subscribe-box .icon-envelope {
+    margin-top: 2px;
+  }
+  
+  .subscribe-box .info {
+    line-height: 14px;
+  }
+  
+  .available-store a:last-child {
+    margin-left: 20px;
+  }
+  
+  footer .copyright .inline-menu > li > a {
+    padding: 6px 4px;
+  }
+}
+
+
+@media(max-width:767px) {
+  
+  .navbar-default {
+    padding: 0px;
+  }
+  
+  #navbar.collapse.in,
+  #navbar.collapsing {
+    background-color: #fff;
+  }
+  
+  .navbar-toggle {
+    border-radius: 0px;
+  }
+  
+  .navbar-default .navbar-nav > li > a, 
+  .affix.navbar-default .navbar-nav > li > a {
+    color: #44525f;
+    padding: 10px 20px;
+	border-bottom: 1px solid #e7e7e7;
+  }
+  
+  .navbar-default .navbar-nav > li:last-child > a {
+    border-bottom: 0 none;
+  }
+  
+  .navbar-default .navbar-nav > li > a > .bar-fx, 
+  .navbar-default .navbar-nav > li.active > a  > .bar-fx {
+    display: none;
+	visibility: hidden;
+  }
+   
+  .navbar-default .navbar-nav > li.active > a, 
+  .navbar-default .navbar-nav > li.active > a:hover, 
+  .navbar-default .navbar-nav > li > a:focus, 
+  .navbar-default .navbar-nav > li > a:hover, 
+  .affix.navbar-default .navbar-nav > li > a:focus, 
+  .affix.navbar-default .navbar-nav > li > a:hover {
+    color: #1576d1;
+  }
+  
+  .navbar-nav > li > .dropdown-menu {
+    left: 15px;
+  }	
+  
+  .navbar-nav > li > .dropdown-menu:before {
+    border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	right: 65%;
+  }
+  
+  .navbar-toggle {
+    margin-top: 15px;
+  }
+  
+  .navbar-default .navbar-brand {
+    margin-bottom: 8px;
+	margin-top: 8px;
+  }
+  
+  .navbar-nav > li > .dropdown-menu:before {
+    display: none;
+  }
+  
+  .navbar-brand {
+    padding: 0px 15px;
+  }
+  
+  ul.review-timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: left;
+  }
+
+  ul.review-timeline:before {
+    left: 40px;
+  }
+
+  ul.review-timeline > li > .review-timeline-panel {
+    float: right;
+  }
+  
+  ul.review-timeline > li > .review-timeline-panel {
+    width: calc(100% - 90px);
+    width: -moz-calc(100% - 90px);
+    width: -webkit-calc(100% - 90px);
+  }
+  
+  ul.review-timeline > li > .review-timeline-panel {
+    float: right;
+  }
+
+  ul.review-timeline > li > .review-timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+
+  ul.review-timeline > li > .review-timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+  
+  .review-timeline > li.review-timeline-inverted {
+    padding-right: 15px;
+	padding-left: 0px;
+  }
+  
+  .review-timeline > li:not(.review-timeline-inverted) {
+    padding-right: 15px;
+  }
+  
+  .review-timeline > li.review-timeline-inverted {
+    float: left;
+    clear: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  ul.review-timeline > li > .review-timeline-thumb {
+    left: 8px;
+    margin-left: 0;
+    top: 16px;
+  }
+  
+}
+
+@media only screen and (min-width: 480px) and (max-width: 520px) {
+  .featured-logo > li span {
+    font-size: 16px;
+	line-height: normal !important;
+  }
+  
+  .featured-logo > li {
+    width: 25%;
+  }
+  
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+  
+  .featured-logo li:first-child, 
+   .featured-logo li:last-child {
+    display: block !important;
+  }
+
+  .featured-logo > li > a, 
+  .featured-logo > li > span {
+    padding: 19px 10px 19px;
+  }
+
+  #contactus .contact-info {
+    padding-left: 0px;
+  }
+  
+  #contactus .enquiry-box {
+    padding-right: 0px;
+  }
+  
+  #platform .medium-list ul li:after, 
+  #platform .medium-list ul li:before {
+    width: 0px;
+	height: 0px;
+  }
+  
+   .copyright, 
+   .social-links {
+     text-align: center;
+   }
+   
+   .inline-menu {
+     margin: 5px auto;
+   }
+   
+   .available-store .btn-platform {
+     width: 100%;
+	 margin-bottom: 10px;
+   }
+   
+  .box-content.no-border {
+    border-bottom: 1px solid #e7ebee;
+  }
+  
+  .box-content.no-border-last {
+    border-bottom: 0 none;
+  }
+   
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+  /* General */
+
+  
+  .section-heading h2 {
+    font-size: 30px;
+	line-height: normal;
+  }
+  
+  /* Slideshow Section */
+  
+  .slide-item h2 {
+    font-size: 32px;
+  }
+  
+  .slide-item p {
+    font-size: 18px;
+  }
+  
+  .btn-2x {
+    width: 50%;
+  }
+  
+  .animate-block {
+    text-align: center;
+  }
+  
+  .platform-btn .btn-platform:last-child {
+    margin-left: 0px;
+  }
+  
+  /* Platform Section*/
+  
+  #platform .platform-img {
+    margin-bottom: 50px;
+  }
+  
+  #platform .platform-img img {
+    margin: 0 auto;
+	width: 640px;
+  }
+
+  #platform .platform-list ul li {
+    padding-left: 20px;
+  }
+  
+  #platform .platform-list ul li.odd {
+    padding-left: 0px;
+  }
+  
+  #platform .platform-list h3 {
+    font-size: 18px;
+  }
+  
+  #platform .medium-list ul li {
+    margin-top: 18px;
+  }
+  
+  .panel-pricing.popular {
+    margin: 15px 0px;
+  }
+  
+  #contactus:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    background-color: transparent;
+    left: 50%;
+    right: auto;
+  }
+  
+  div.twt-item {
+    text-align: center;
+  }
+
+  .subscribe-box {
+    margin-top: 35px;
+  }
+  
+}
+
+@media only screen and (min-width: 240px) and (max-width: 360px) {
+  
+  .review-timeline .review-timeline-body .reviewer > li > .stars {
+    font-size: 14px;
+  }
+  
+  .featured-logo > li > a, 
+  .featured-logo > li > span {
+    padding: 19px 12px 19px;
+  }
+  
+  .box-content.no-border {
+    border-bottom: 1px solid #e7ebee;
+  }
+  
+  .box-content.no-border-last {
+    border-bottom: 0 none;
+  }
+  
+  #indepth .btn {
+    display: block;
+  }
+  
+  #platform .medium-list ul li .medium {
+    overflow: visible;
+  }
+
+  #platform .medium-list ul li .medium p {
+    font-size: 14px;
+    white-space: normal;
+	text-overflow: unset;
+  }
+  
+  #platform .medium-list ul li:after, 
+  #platform .medium-list ul li:before {
+    width: 0px;
+	height: 0px;
+  }
+  
+  .social-links li {
+    margin-left: 4px;
+  }
+  
+  .panel-pricing.popular {
+    margin: 0px;
+	margin-bottom: 20px;
+  }
+  
+  #contactus .enquiry-box {
+    padding-right: 0;
+  }
+  
+  #contactus .contact-info {
+    padding-left: 0px;
+	padding-top: 0;
+  }
+  
+  #contactus:before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+	visibility: hidden;
+  }
+  
+  div.twt-item {
+    text-align: center;
+  }
+  
+  .available-store .btn-platform {
+    border: 1px solid #ddd;
+	width: 100%;
+	margin-bottom: 15px;
+  }
+  
+  footer .copyright, 
+  footer .copyright .inline-menu, 
+  footer .copyright .social-links {
+    text-align: center;
+	margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "ZerosDev/ZerosSMS",
+    "description": "xxxxxxxxxxxxxxxxxxx",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zeros Dev",
+            "email": "developers@zeros.co.id"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

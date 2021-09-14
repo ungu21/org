@@ -1,0 +1,8 @@
+untuk nanti malam 
+1. buat cronjob update produk Pembelian(sudah)
+2. buat cronjob update produk Pembayaran(sudah)
+3. buat cronjob cek transaksi produk pembelian
+4. buat cronjob cek transaksi produk pembayaran
+5. buat job untuk produk pembelian
+6. ubah pembelianController dan PembayaranController
+7.

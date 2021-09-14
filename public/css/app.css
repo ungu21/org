@@ -1,0 +1,14 @@
+@media screen and (max-width: 780px) {
+	.title-beli{
+	    font-size:201px;
+	}
+}
+
+.btn-buy-plan, .btn-primary {
+    background-color: #0CB4FF !important;
+}
+
+#slideshow {
+  background-image: linear-gradient(#041722bd, #173f56b5), url(https://www.quadranet.com/gallery/dallas_datacenter2.jpg);
+  background-size: cover;
+}

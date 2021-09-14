@@ -1,0 +1,13 @@
+{
+    "name": "tripay/pulsa",
+    "description": "Package to integrate tripay.co.id with laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tripay.CO.ID",
+            "email": "cs@p-store.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

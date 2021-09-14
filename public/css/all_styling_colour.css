@@ -1,0 +1,82 @@
+
+.skin-blue-light .main-header .navbar {
+      background-color: #ff006a;
+}
+
+.skin-blue-light .main-header .logo {
+    background-color: #ff006a;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+  }
+
+  .skin-blue-light .main-header .logo a {
+    background-color: #ff006a;
+    color: #fff;
+    border-bottom: 0 solid transparent;
+  }
+
+.skin-blue-light .main-header .logo:hover{
+    background-color:#b3004b
+    
+}
+
+.bg-blue {
+    background-color: #ff006a !important;
+}
+
+.bg-light-blue, .label-primary, .modal-primary .modal-body {
+    background-color: #ff006a !important;
+}
+
+
+/* unvisited link */
+a {
+  color: #ff006a;
+}
+
+a:hover {
+  color: #b3004b;
+}
+
+.btn-info, .btn-info:hover, .btn-info:active, .btn-info:visited  {
+    background-color: #ff006a;
+    border-color: #ff0059;
+}
+
+.btn-primary {
+    background-color: #ff006a;
+    border-color: #ff0059;
+}
+.btn-primary:hover {
+    background-color: #b3004b;
+    border-color: #b3004b;
+}
+
+.btn-primary:active {
+    background-color: #ff006a;
+    border-color: #ff006a;
+}
+
+.btn-primary:visited {
+    background-color: #ff006a;
+    border-color: #ff006a;
+}
+
+
+.text-primary{
+    color: #ff006a;
+}
+
+.bg-primary {
+    color: #fff;
+    background-color: #ff006a;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #ff006a;
+    border-color: #ff0059;
+}
+
+.skin-blue-light .main-header li.user-header {
+    background-color: #ff006a;
+}
